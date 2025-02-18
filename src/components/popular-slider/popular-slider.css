@@ -1,0 +1,74 @@
+.title {
+    font-size: 20px;
+  }
+  
+  .popular-movies {
+    max-width: 1280px;
+    margin: auto;
+    padding: 20px 0;
+  }
+  
+  .prating-movie-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+  }
+  
+  .prating-container {
+    position: absolute;
+    bottom: -15px;
+    left: 5px;
+    margin-left: 10px;
+  }
+  
+  .prating-bg {
+    fill: none;
+    stroke: #021a2e;
+    stroke-width: 4;
+  }
+  
+  .prating-bar {
+    fill: #021a2e;
+    stroke-width: 3;
+    stroke-linecap: round;
+    transform: rotate(-90deg);
+    transform-origin: center;
+    transition: stroke-dashoffset 0.5s ease;
+  }
+  
+  .prating-text {
+    font-size: 11px;
+    font-weight: bold;
+    fill: white;
+  }
+  
+  @media (max-width: 1024px) {
+    .title {
+      font-size: 18px;
+    }
+  
+    .prating-movie-title {
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .popular-movies {
+      padding: 15px 0;
+    }
+  
+    .prating-movie-title {
+      font-size: 12px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .title {
+      font-size: 16px;
+    }
+  
+    .prating-movie-title {
+      font-size: 12px;
+    }
+  }
+  

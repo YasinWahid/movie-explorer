@@ -1,0 +1,127 @@
+.title {
+    font-size: 28px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.movie-page {
+    max-width: 1280px;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.movie-card {
+    position: relative;
+    border: 1px solid rgba(202, 202, 202, 0.911);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.movie-card:hover {
+    transform: scale(1.05);
+}
+
+.mrating-movie-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+    margin-top: 10px;
+}
+
+.mrating-container {
+    position: absolute;
+    bottom: 70px;
+    left: 10px;
+    z-index: 2; 
+}
+
+.mrating-bg {
+    fill: none;
+    stroke: #021a2e;
+    stroke-width: 4;
+}
+
+.mrating-bar {
+    fill: #021a2e;
+    stroke-width: 3;
+    stroke-linecap: round;
+    transform: rotate(-90deg);
+    transform-origin: center;
+    transition: stroke-dashoffset 0.5s ease;
+}
+
+.mrating-text {
+    font-size: 11px;
+    font-weight: bold;
+    fill: white;
+}
+
+.pagination-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+@media (min-width: 1200px) {
+    .col-xl-2 {
+        flex: 0 0 20%; 
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .col-lg-3 {
+        flex: 0 0 25%; 
+    }
+}
+
+
+@media (max-width: 768px) {
+    .col-md-4 {
+        flex: 0 0 33.33%; 
+    }
+}
+
+@media (max-width: 480px) {
+    .col-6 {
+        flex: 0 0 33.33%; 
+    }
+}
+
+@media (max-width: 1024px) {
+    .title {
+        font-size: 24px;
+    }
+
+    .mrating-movie-title {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .mrating-movie-title {
+        font-size: 12px;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .mrating-movie-title {
+        font-size: 12px;
+    }
+
+    .title {
+        font-size: 18px;
+    }
+
+    .mrating-container {
+        bottom: 5px;
+        left: 5px;
+    }
+}

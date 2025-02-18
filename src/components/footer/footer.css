@@ -1,0 +1,52 @@
+.footer {
+  background-color: rgb(3, 37, 65);
+  color: white;
+  width: 100%;
+  padding: 20px 0;
+  position: relative; 
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.footer-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav {
+  display: flex;
+  gap: 15px;
+}
+
+.nav .nav-link {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.nav .nav-link:hover {
+  color: #f8d210;
+}
+
+.social-icons a {
+  color: white;
+  margin-right: 15px;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: #f8d210;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 15px;
+  width: 100%;
+}

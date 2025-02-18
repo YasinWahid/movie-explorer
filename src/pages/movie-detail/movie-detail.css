@@ -1,0 +1,92 @@
+.movie-detail {
+    max-width: 100%;
+    margin: auto;
+    padding: 20px 20px;
+    background: #021a2ee3;
+    color: white;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.movie-title {
+    font-size: 3rem;
+    color: white;
+    font-weight: bold;
+}
+
+.movie-info {
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.mdrating-container {
+    margin: 25px 0;
+}
+
+.mdrating-bg {
+    fill: #021a2e;
+    border-radius: 50%;
+    stroke-width: 4;
+}
+
+.mdrating-bar {
+    fill: none;
+    stroke-width: 3;
+    stroke-linecap: round;
+    transform: rotate(-90deg);
+    transform-origin: center;
+    transition: stroke-dashoffset 0.5s ease;
+}
+
+.mdrating-text {
+    font-size: 11px;
+    font-weight: bold;
+    fill: white;
+}
+
+
+.overview {
+    font-size: 16px;
+    margin-top: 25px;
+}
+
+.movie-crew {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 40px;
+}
+.cast{
+    margin: 20px
+
+}
+.cast-title {
+    font-size: 1.2rem;
+    font-weight: 700
+}
+
+.cast-slider {
+    padding: 10px 0;
+}
+
+
+.cast-img {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    object-fit: contain;
+    margin-bottom: 10px;
+    width: 175px;
+}
+
+.actor-name {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.character-name {
+    font-size: 14px;
+}
