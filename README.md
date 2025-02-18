@@ -25,7 +25,7 @@ The **Movie Explorer App** is a web application designed to allow users to searc
 
    Open your terminal or command prompt and run the following command to clone the repository:
    ```bash
-   git clone https://github.com/YasinWahid/FRONT-END-DEV/REACTJS_PROJECTS/movie-explorer-app.git
+ [  git clone https://github.com/YasinWahid/movie-explorer.git
    ```
 
 2. **Navigate to the project folder:**
